@@ -1,0 +1,24 @@
+{
+    "name": "Talker",
+    "version": "1.0",
+    "description": "Text to Speech, Record Notes",
+    "permissions": [
+        "contextMenus",
+        "tts",
+        "<all_urls>",
+        "tabs",
+        "storage"
+      ],
+        "icons": {
+          "16": "favicon.png"
+        },
+      "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+      },
+    "background": {
+      "scripts": ["talker.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+  }  
